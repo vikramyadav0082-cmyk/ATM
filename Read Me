@@ -1,0 +1,84 @@
+ATM System – Python Project
+📌 Overview
+
+This project is a simple ATM (Automated Teller Machine) simulator written in Python.
+It allows users to log in with a card number and PIN, and perform basic banking operations such as:
+
+Check Balance
+
+Withdraw Money
+
+Deposit Money
+
+View Mini Statement
+
+Change PIN
+
+Logout
+
+This is a console-based project suitable for beginner to intermediate Python learners or college school projects.
+
+🧠 Features
+✔ User Authentication
+
+Login using card number + secure PIN
+
+3 attempts before card is blocked
+
+✔ Balance Inquiry
+
+View available bank balance
+
+✔ Cash Withdrawal
+
+Withdraw any amount (with balance validation)
+
+✔ Cash Deposit
+
+Deposit any amount easily
+
+✔ Mini Statement
+
+Shows last 5 transactions
+
+✔ Change PIN
+
+Securely update PIN
+
+✔ Object-Oriented Programming
+
+Uses classes: ATM, Account
+
+Clean and modular code
+
+📂 Project Structure
+ATM-Project/
+│
+├── atm.py          # Main ATM source code
+├── README.md       # Project documentation
+└── requirements.txt (optional)
+
+▶️ How to Run the Project
+1. Install Python (3.x required)
+
+Download Python from: https://python.org
+
+2. Run the script
+
+Open terminal or command prompt and run:
+
+python atm.py
+
+📝 Demo Accounts (for testing)
+Card Number	PIN	Name	Balance
+12345678	1234	Vikram	₹5000
+87654321	4321	Anita	₹12000
+💡 Future Improvements (optional for project)
+
+Add database support (SQLite/JSON)
+
+Create GUI using Tkinter
+
+Create admin panel
+
+Add ATM cash management (2000/500/200/100 notes)
